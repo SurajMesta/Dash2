@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.mt1::-webkit-meter-optimum-value {
+    background: violet; /* Green */
+
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mt2::-webkit-meter-optimum-value {
+    background: crimson; /* Green */
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mt3::-webkit-meter-optimum-value {
+    background: yellow; /* Green */
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mt4::-webkit-meter-optimum-value {
+    background: orange; /* Green */
+   
 }
 
-.App-link {
-  color: #61dafb;
+meter::-webkit-meter-optimum-value {
+    background: yellowgreen; /* Green */
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
